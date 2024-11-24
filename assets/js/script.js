@@ -1,4 +1,4 @@
-//  quiz questions
+// 15 quiz questions
 
 const questions = [
 
@@ -156,37 +156,53 @@ const questions = [
       {
         question: "What is the name of the Alliance capital?",
         answers: [
-          { text: "Stormwind.", correct: true,},
-          { text: "Orgrimmar.", correct: false,},
-          { text: "Dalaran.", correct: false },
-          { text: "Thunder Bluff.", correct: false },
+          { text: "Stormwind.",
+             correct: true,},
+          { text: "Orgrimmar.",
+             correct: false,},
+          { text: "Dalaran.",
+             correct: false },
+          { text: "Thunder Bluff.",
+             correct: false },
         ],
       },
       {
         question: "What is the name of Horde capital?",
         answers: [
-            { text: "Orgrimmar.", correct: true,},
-            { text: "Stormwind.", correct: false,},
-            { text: "Dalaran.", correct: false },
-            { text: "Thunder Bluff.", correct: false },
+            { text: "Orgrimmar.",
+                 correct: true,},
+            { text: "Stormwind.", 
+                correct: false,},
+            { text: "Dalaran.", 
+                correct: false },
+            { text: "Thunder Bluff.", 
+                correct: false },
         ],
       },
       {
         question: "What is the maximum level a character can reach in World of Warcraft The War Whitin?",
         answers: [
-          { text: "90.", correct: false },
-          { text: "70.", correct: false },
-          { text: "60.", correct: false },
-          { text: "80.", correct: true,},
+          { text: "90.",
+             correct: false },
+          { text: "70.", 
+            correct: false },
+          { text: "60.", 
+            correct: false },
+          { text: "80.", 
+            correct: true,},
         ],
       },
       {
         question: "What is the name of the legendary sword wielded by the character Arthas Menethil?",
         answers: [
-          { text: "lightmourne.", correct: false },
-          { text: "sunmourne.", correct: false },
-          { text: "Frostmourne.", correct: true,},
-          { text: "Shadowmourne.", correct: false },
+          { text: "lightmourne.",
+             correct: false },
+          { text: "sunmourne.",
+             correct: false },
+          { text: "Frostmourne.",
+             correct: true,},
+          { text: "Shadowmourne.",
+             correct: false },
         ],
       },
 ];
