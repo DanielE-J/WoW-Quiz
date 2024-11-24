@@ -5,3 +5,13 @@
     box-sizing: border-box;
     font-family: 'Orbitron', sans-serif;
 }
+
+/*Body style */
+body {
+    background-image: url('assets/images/background.jpg');
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #16074d;
+    min-height: 100vh;
+    padding: 20px;
+}
