@@ -9,6 +9,7 @@
 /*Body style */
 body {
     background-image: url('assets/images/background.jpg');
+    background-size: cover;    
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     color: #16074d;
