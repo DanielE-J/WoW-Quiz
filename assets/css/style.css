@@ -8,8 +8,7 @@
 
 /*Body style */
 body {
-    background-image: url('assets/images/background.PNG');
-    background-size: cover;    
+    background: rgb(6, 46, 97) url(../images/background.jpg) center top/cover no-repeat fixed;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     color: #16074d;
