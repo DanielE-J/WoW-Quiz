@@ -20,11 +20,11 @@ body {
 #intro {
     background: #f4f4f4;
     width: 90%;
-    max-width: 600px;
+    max-width: 550px;
     margin: 20px auto 0;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
 }
 
 /* General list styling */
@@ -33,15 +33,15 @@ li {
 }
 
 /* Instructions styling */
-#quiz-instructions {
-    margin-top: 10px;
+#quiz-instructions, h3 {
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     background: #f7f6f6;
     width: 90%;
-    max-width: 600px;
-    border-radius: 10px;
-    padding: 20px; 
+    max-width: 550px;
+    border-radius: 5px;
+    padding: 5px; 
     text-align: center;
-    font-size: 11px;
+    font-size: 15px;
 }
