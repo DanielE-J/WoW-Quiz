@@ -4,26 +4,17 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 const questions = [
+  {
+    question: "Where does the human race start?",
+    image: "assets/questionpictures/Question1picture.jpg",  // Add image path here
+    answers: [
+      { text: "Goldshire.", correct: false },
+      { text: "Orgrimmar.", correct: false },
+      { text: "Thunderbluff.", correct: false },
+      { text: "Northshire Valley.", correct: true },
+    ],
+},
 
-    {
-        question: "Where does the human race start?",
-        answers: [
-          {
-            text: "Goldshire.",
-            correct: false,
-          },
-          {
-            text: "Orgrimmar.",
-            correct: false,
-          },
-          { text: "Thunderbluff.", 
-            correct: false },
-          {
-            text: "Northshire Valley.",
-            correct: true,
-          },
-        ],
-    },
     {
         question: "Who was the warchief in classic?",
         answers: [
@@ -272,3 +263,4 @@ function showResults() {
   // Hide the next button after the quiz ends
   document.getElementById('next-btn').style.display = 'none';
 }
+
