@@ -6,7 +6,6 @@ let score = 0;
 const questions = [
   {
     question: "Where does the human race start?",
-    image: "assets/questionpictures/Question1picture.jpg",  // Add image path here
     answers: [
       { text: "Goldshire.", correct: false },
       { text: "Orgrimmar.", correct: false },
