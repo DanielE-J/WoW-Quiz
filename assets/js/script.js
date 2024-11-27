@@ -255,11 +255,27 @@ function nextQuestion() {
 }
 
 function showResults() {
+  const resultSection = document.getElementById('results');
+  resultSection.style.display = 'block'; // Show results
+  
+  // Display the score
   const scoreElement = document.getElementById('score');
   scoreElement.textContent = `Your score is: ${score} out of ${questions.length}`;
-  document.getElementById('scores-categories').style.display = 'block';
 
-  // Hide the next button after the quiz ends
+  // Hide the "Next" button
   document.getElementById('next-btn').style.display = 'none';
 }
 
+function restartQuiz() {
+  // Reset the quiz state
+  currentQuestionIndex = 0;
+  score = 0;
+  
+  // Hide the results and show the quiz again
+  document.getElementById('results').style.display = 'none'; // Hide results
+  document.querySelector('.app').style.display = 'block'; // Show quiz container
+  showQuestion(); // Display the first question again
+
+  // Hide the next button initially
+  document.getElementById('next-btn').style.display = 'none';
+}
