@@ -220,3 +220,18 @@ function startQuiz() {
   showQuestion();
 }
 
+function showQuestion() {
+  const question = questions[currentQuestionIndex];
+  document.getElementById('question').textContent = question.question;
+
+  const answerButtons = document.getElementById('answer-buttons');
+  answerButtons.innerHTML = '';  
+
+  question.answers.forEach((answer, index) => {
+      const button = document.createElement('button');
+      button.textContent = answer.text;
+      button.classList.add('btn');
+      button.addEventListener('click', () => checkAnswer(answer, button));
+      answerButtons.appendChild(button);
+  });
+}
