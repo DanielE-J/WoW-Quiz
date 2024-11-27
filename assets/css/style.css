@@ -105,3 +105,17 @@ body {
 #scores-categories {
     display: none;
 }
+
+/* 404 page button styling */
+.error-backbutton {
+    background: #2c3e50;
+    color: #ffffff;
+    font-weight: bold;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
