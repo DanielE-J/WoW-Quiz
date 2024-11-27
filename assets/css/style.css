@@ -130,6 +130,29 @@ body {
     padding: 30px;
 }
 
+.social-media {
+    position: fixed; 
+    bottom: 0;
+    text-align: center;
+    padding: 2px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.social-media i {
+    font-size: xx-large;
+    padding: 5%;
+    color: rgb(2, 106, 106);
+}
+
+.social-media a {
+    transition: color 0.3s ease; 
+}
+
+.social-media a:hover i {
+    color: #007bff; 
+}
 /* media queries for smaller screens */
 
 @media screen and (max-width: 600px) {
