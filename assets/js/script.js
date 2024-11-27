@@ -1,5 +1,8 @@
 // 15 quiz questions
 
+let currentQuestionIndex = 0;
+let score = 0;
+
 const questions = [
 
     {
