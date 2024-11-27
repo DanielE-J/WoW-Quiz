@@ -92,3 +92,16 @@ body {
     cursor: pointer;
     display: block;
 }
+
+/* Javascript button styling */
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+#scores-categories {
+    display: none;
+}
