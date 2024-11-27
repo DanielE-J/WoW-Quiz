@@ -208,4 +208,15 @@ const questions = [
              correct: false },
         ],
       },
-];
+]; 
+
+document.getElementById('start-btn').addEventListener('click', startQuiz);
+document.getElementById('next-btn').addEventListener('click', nextQuestion);
+
+function startQuiz() {
+  document.getElementById('intro').style.display = 'none';
+  document.getElementById('quiz-instructions').style.display = 'none';
+  document.querySelector('.app').style.display = 'block';
+  showQuestion();
+}
+
