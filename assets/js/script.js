@@ -235,3 +235,20 @@ function showQuestion() {
       answerButtons.appendChild(button);
   });
 }
+
+function checkAnswer(answer, button) {
+// Check if the selected answer is correct
+  if (answer.correct) {
+      button.classList.add('correct');
+      score++;
+  } else {
+      button.classList.add('incorrect');
+  }
+
+  // Disable all buttons after answering
+  const buttons = document.querySelectorAll('.btn');
+  buttons.forEach(button => button.disabled = true);
+
+  // Show "Next" button after answering
+  document.getElementById('next-btn').style.display = 'inline-block';
+}
