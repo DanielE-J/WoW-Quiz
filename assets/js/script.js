@@ -262,3 +262,12 @@ function nextQuestion() {
       showResults();
   }
 }
+
+function showResults() {
+  const scoreElement = document.getElementById('score');
+  scoreElement.textContent = `Your score is: ${score} out of ${questions.length}`;
+  document.getElementById('scores-categories').style.display = 'block';
+
+  // Hide the next button after the quiz ends
+  document.getElementById('next-btn').style.display = 'none';
+}
