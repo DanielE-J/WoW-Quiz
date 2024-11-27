@@ -252,3 +252,13 @@ function checkAnswer(answer, button) {
   // Show "Next" button after answering
   document.getElementById('next-btn').style.display = 'inline-block';
 }
+
+function nextQuestion() {
+  if (currentQuestionIndex < questions.length - 1) {
+      currentQuestionIndex++;
+      showQuestion();
+      document.getElementById('next-btn').style.display = 'none';
+  } else {
+      showResults();
+  }
+}
