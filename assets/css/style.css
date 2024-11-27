@@ -129,3 +129,41 @@ body {
     border-radius: 10px;
     padding: 30px;
 }
+
+/* media queries for smaller screens */
+
+@media screen and (max-width: 600px) {
+    .app {
+      padding: 5px; /* Reduce padding for smaller screens */
+    }
+  
+    .btn {
+      font-size: 12px; /* Decrease button font size for smaller screens */
+      text-align: center;
+    }
+  }
+
+/* media query for larger screens */
+@media screen and (min-width: 768px) {
+    header img {
+        width: 512px;
+        height: 130px;
+    }
+    /* General list styling larger screens */
+    li {
+        list-style-type: none;
+    }
+    #instructions ol {
+        list-style: none; 
+        padding-left: 0;
+        margin: 0;
+    }
+
+    #intro {
+        font-size: 18px;
+    }
+
+    #instructions {
+        font-size: 15px;
+    }
+}
