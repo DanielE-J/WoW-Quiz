@@ -214,6 +214,7 @@ document.getElementById('start-btn').addEventListener('click', startQuiz);
 document.getElementById('next-btn').addEventListener('click', nextQuestion);
 
 function startQuiz() {
+  document.getElementById('next-btn').style.display = 'none';
   document.getElementById('intro').style.display = 'none';
   document.getElementById('quiz-instructions').style.display = 'none';
   document.querySelector('.app').style.display = 'block';
