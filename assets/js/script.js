@@ -265,17 +265,3 @@ function showResults() {
   // Hide the "Next" button
   document.getElementById('next-btn').style.display = 'none';
 }
-
-function restartQuiz() {
-  // Reset the quiz state
-  currentQuestionIndex = 0;
-  score = 0;
-  
-  // Hide the results and show the quiz again
-  document.getElementById('results').style.display = 'none'; // Hide results
-  document.querySelector('.app').style.display = 'block'; // Show quiz container
-  showQuestion(); // Display the first question again
-
-  // Hide the next button initially
-  document.getElementById('next-btn').style.display = 'none';
-}
