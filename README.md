@@ -1,3 +1,13 @@
+# WOW Quiz
+
+Welcome to my World of Warcraft Quiz!
+
+(Developer: Daniel Elde-Johansson)
+
+![Mockup image]()
+
+[Live webpage]()
+
 ## Table of Content
 1. [Introduction](#Introduction)
 2. [Project Goals](#project-goals)
