@@ -43,7 +43,7 @@ const questions = [
         ],
     },
     {
-        question: "What is the name of the Alliance King?",
+        question: "What is the name of the current Alliance King?",
         answers: [
           { text: "Anduin Wrynn", 
             correct: false },
@@ -82,7 +82,7 @@ const questions = [
         ],
       },
       {
-        question: "Who is the Litch king ?",
+        question: "Who is the Lich king ?",
         answers: [
           { text: "Thrall",
             correct: false },
@@ -95,7 +95,7 @@ const questions = [
         ],
       },
       {
-        question: "How many proffesions are there?",
+        question: "How many professions are there?",
         answers: [
           { text: "13.",
              correct: true },
@@ -108,7 +108,7 @@ const questions = [
         ],
       },
       {
-        question: "Witch year did World of Warcraft get realeased ?",
+        question: "Which year did World of Warcraft get released ?",
         answers: [
           { text: "2003.",
              correct: false },
@@ -173,7 +173,7 @@ const questions = [
         ],
       },
       {
-        question: "What is the maximum level a character can reach in World of Warcraft The War Whitin?",
+        question: "What is the maximum level a character can reach in World of Warcraft The War Within?",
         answers: [
           { text: "90.",
              correct: false },
