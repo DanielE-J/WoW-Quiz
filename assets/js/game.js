@@ -1,5 +1,15 @@
 // 15 quiz questions
 
+
+// Variables
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
+
+let currentQuestionIndex = 0;
+let score = 0;
+
+
 const questions = [
   {
     question: "Where does the human race start?",
@@ -198,14 +208,6 @@ const questions = [
 ]; 
 
 
-// Variables
-const questionElement = document.getElementById("question");
-const answerButtons = document.getElementById("answer-buttons");
-const nextButton = document.getElementById("next-btn");
-
-let currentQuestionIndex = 0;
-let score = 0;
-
 /**
  * Hides .app when page is loaded
  * Create the Start button
@@ -350,10 +352,10 @@ function showScore() {
   scoreCategoriesElement.style.display = "block"; // Make the score container visible
 
   // Assuming questionElement is the container for the quiz questions
-  const questionElement = document.getElementById("question-section"); // Define your question section element
-  questionElement.style.display = "none"; // Hide the question section
+  const questionElement = document.getElementById("question-section"); 
+  questionElement.style.display = "none"; 
 
-  addRestartButton(); // Display the restart button (ensure this function is defined)
+  addRestartButton(); 
 }
 
 /**
