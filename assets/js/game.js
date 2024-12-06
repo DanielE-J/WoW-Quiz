@@ -206,3 +206,22 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
+/**
+ * Hides .app when page is loaded
+ * Create the Start button
+ * Append the Start button under the instructions section
+ */
+
+document.addEventListener("DOMContentLoaded", function () {
+  var appDiv = document.querySelector(".app");
+  appDiv.style.display = "none";
+
+  var startBtn = document.createElement("button");
+  startBtn.textContent = "Start";
+  startBtn.id = "start-btn";
+
+  var instructions = document.getElementById("instructions");
+  instructions.appendChild(startBtn);
+
+  startBtn.addEventListener("click", startGame);
+})
