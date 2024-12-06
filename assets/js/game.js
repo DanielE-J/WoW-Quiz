@@ -229,5 +229,32 @@ document.addEventListener("DOMContentLoaded", function () {
   // Add a click event listener to the "Start" button
   startBtn.addEventListener("click", startGame);
 
-  
 });
+
+
+/**
+ * Starts the quiz game by hiding the introduction and instructions elements,
+ * displaying the quiz interface, and calling the function to display the first question.
+ */
+
+function startGame() {
+  // Variables for startGame
+  const introDiv = document.getElementById("intro");
+  const instructionsDiv = document.getElementById("quiz-instructions");
+  const quizDiv = document.querySelector(".quiz");
+  const appDiv = document.querySelector(".app");
+
+  // Hide intro and instructions sections
+  introDiv.style.display = "none";
+  instructionsDiv.style.display = "none";
+
+  // Show quiz and app sections
+  quizDiv.style.display = "block";
+  appDiv.style.display = "block";
+}
+
+function initializeQuiz() {
+  console.log("Quiz initialized. Ready to begin!");
+  // Additional quiz setup logic
+}
+
