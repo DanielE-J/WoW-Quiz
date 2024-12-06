@@ -306,15 +306,15 @@ function selectAnswer(e) {
  * Handles the click event on the next button.
  * Adds event listeners to answer buttons to handle answer selection.
  */
-nextButton.addEventListener('click', handleNextButton);
-// Function to handle the Next button click
+ nextButton.addEventListener('click', handleNextButton);
 function handleNextButton() {
   currentQuestionIndex++;
+  console.log(currentQuestionIndex); // Add this line for debugging
   if (currentQuestionIndex < questions.length) {
     displayQuestion(); // Load next question
   } else {
-    nextButton.disabled = true; // Disable the button when no more questions
-    alert("You've completed the quiz!"); // Show an alert or redirect to results
+    nextButton.disabled = true; // Disable the button immediately
+    showScore(); // Show the score after completing the quiz
   }
 }
 
@@ -323,39 +323,42 @@ function handleNextButton() {
  * Displays the user's score and and a message based on the score.
  */
 function showScore() {
-  resetState(); // Reset the state for the score section
-  
-  // Assuming you have a score container and result paragraph element
+  // Ensure the question element is hidden
+  questionElement.style.display = "none"; // Hide the last question
+
+  // Hide the answer buttons and next button
+  answerButtons.style.display = "none";
+  nextButton.style.display = "none";
+
   const scoreCategoriesElement = document.getElementById("scores-categories");
   const scoreResultElement = scoreCategoriesElement.querySelector("p");
 
+  // Define the score categories and corresponding messages
   const scoreCategories = [
     { minScore: 0, maxScore: 5, message: "Noob!" },
     { minScore: 6, maxScore: 10, message: "You still have much to learn!" },
     { minScore: 11, maxScore: 15, message: "Almost there!" },
-    { minScore: 16, maxScore: 20, message: "Do you have a life?" }, // Corrected range
+    { minScore: 16, maxScore: 20, message: "Do you have a life?" }
   ];
 
-  const userScore = score; // Make sure `score` is defined elsewhere
+  // Find the appropriate message based on the user's score
+  const userScore = score;
   let userMessage = "";
-
-  // Loop through the categories to find the appropriate message for the score
   for (const category of scoreCategories) {
     if (userScore >= category.minScore && userScore <= category.maxScore) {
-      userMessage = `You scored ${userScore} ${userScore === 1 ? "point" : "points"}. ${category.message}`;
-      break;
+      userMessage = "You scored " + userScore + (userScore === 1 ? " point." : " points.") + " " + category.message;
+      break; // Stop the loop as soon as the appropriate message is found
     }
   }
 
-  // Display the message in the result section
+  // Display the result message
   scoreResultElement.textContent = userMessage;
-  scoreCategoriesElement.style.display = "block"; // Make the score container visible
 
-  // Assuming questionElement is the container for the quiz questions
-  const questionElement = document.getElementById("question-section"); 
-  questionElement.style.display = "none"; 
+  // Show the score categories element
+  scoreCategoriesElement.style.display = "block";
 
-  addRestartButton(); 
+  // Add the restart button
+  addRestartButton();
 }
 
 /**
@@ -378,10 +381,11 @@ function restartGame() {
 
   // Show the question section again
   questionElement.style.display = "block";
-
+  
   // Hide the score section
   const scoreCategoriesElement = document.getElementById("scores-categories");
   scoreCategoriesElement.style.display = "none";
 
+  // Reset answer buttons and display the first question
   displayQuestion();
 }
