@@ -1,8 +1,5 @@
 // 15 quiz questions
 
-let currentQuestionIndex = 0;
-let score = 0;
-
 const questions = [
   {
     question: "Where does the human race start?",
@@ -200,3 +197,11 @@ const questions = [
       },
 ]; 
 
+// Variables
+
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
+
+let currentQuestionIndex = 0;
+let score = 0;
