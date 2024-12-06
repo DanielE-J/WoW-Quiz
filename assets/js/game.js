@@ -269,7 +269,9 @@ function displayQuestion() {
   nextButton.style.display = "none"; // Hide the next button
 }
 
-// Handle the answer selection
+/**
+* Creates answer buttons for each answer option.
+ */
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
@@ -289,4 +291,11 @@ function selectAnswer(e) {
       }
     });
   }
+   // Disable all buttons after selection
+   Array.from(answerButtons.children).forEach(button => {
+    button.disabled = true;
+  });
+
+  nextButton.disabled = false; // Enable the next button
+  nextButton.style.display = "block"; // Show the next button
 }
