@@ -248,8 +248,6 @@ function startGame() {
 
 /**
  * Displays the current question on the quiz interface.
- * Creates answer buttons for each answer option of the current question.
- * Adds event listeners to answer buttons to handle answer selection.
  */
 
 function displayQuestion() {
@@ -269,4 +267,26 @@ function displayQuestion() {
 
   nextButton.disabled = true; // Disable next button initially
   nextButton.style.display = "none"; // Hide the next button
+}
+
+// Handle the answer selection
+function selectAnswer(e) {
+  const selectedBtn = e.target;
+  const isCorrect = selectedBtn.dataset.correct === "true";
+
+  if (isCorrect) {
+    selectedBtn.classList.add("correct");
+    score++;
+  } else {
+    selectedBtn.classList.add("incorrect");
+
+    // Highlight the correct answer
+    Array.from(answerButtons.children).forEach(button => {
+      if (button.dataset.correct === "true") {
+        button.classList.add("correct");
+      } else {
+        button.classList.add("incorrect");
+      }
+    });
+  }
 }
