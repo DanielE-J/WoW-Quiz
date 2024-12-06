@@ -55,32 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Email:', email);
         console.log('Message:', message);
 
-        // Example: Sending data to a server (uncomment to use fetch)
-        /*
-        fetch('your-server-endpoint-url', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                name: name,
-                email: email,
-                message: message
-            })
-        })
-        .then(response => response.json())
-        .then(data => {
-            // Handle success response
-            alert('Thank you for your feedback!');
-            form.reset(); // Reset the form
-        })
-        .catch(error => {
-            // Handle error
-            alert('There was an error submitting your form. Please try again later.');
-        });
-        */
-
-        // Show a success message (just for now, for demonstration)
+    
         alert('Thank you for your feedback!');
         form.reset(); // Reset the form
     });
