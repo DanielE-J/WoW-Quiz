@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description" content="A World of Warcraft online quiz">
+    <meta name="keywords" content="quiz, WoW, game, World of Warcraft, PC">
+    <title>World of Warcraft Quiz</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Scripts -->
+    <script src="assets/js/game.js" defer></script>
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="icon" href="assets/images/favicon.jpg">
+</head>
+<body>
+    <header>
+        <div class="row gx-0 justify-content-center my-1 my-sm-0 mb-sm-2">
+            <!--logo and name of game-->
+            <div class="text-center col-12 col-md-6 col-sm-8 p-1 p-sm-3 ">
+                <a href="index.html">
+                    <h1><img src="assets/images/bee-logo.png" alt="Bee doodle"> Guessing Bee</h1>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row gx-0 justify-content-center mb-2 pb-3">
+            <div class="game-container row gx-0 justify-content-center">
+                <div id="container" class="row border bg-light col-12 col-md-6 col-sm-8 p-1 p-sm-3 align-items-center">
+            
+                    <form id="contact-form">
+                        <p>Please leave some feedback about the game or feel free to suggestquestions to be added to the
+                            game in the future.</p>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" name="message" required></textarea>
+                        </div>
+                        <button id="submit" type="submit" class="my-btn btn btn-primary">Submit</button>
+                        <a href="index.html" class="return-btn btn btn-primary">Return to game</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
