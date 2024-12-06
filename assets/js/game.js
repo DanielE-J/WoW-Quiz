@@ -211,16 +211,23 @@ let score = 0;
  * Create the Start button
  * Append the Start button under the instructions section
  */
+
 document.addEventListener("DOMContentLoaded", function () {
+  // Hide the app content initially
   var appDiv = document.querySelector(".app");
   appDiv.style.display = "none";
 
+  // Create a "Start" button
   var startBtn = document.createElement("button");
   startBtn.textContent = "Start";
   startBtn.id = "start-btn";
 
+  // Append the "Start" button to the instructions element
   var instructions = document.getElementById("instructions");
   instructions.appendChild(startBtn);
 
+  // Add a click event listener to the "Start" button
   startBtn.addEventListener("click", startGame);
+
+  
 });
