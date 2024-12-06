@@ -322,19 +322,22 @@ function handleNextButton() {
  */
 function showScore() {
   resetState(); // Reset the state for the score section
-
+  
+  // Assuming you have a score container and result paragraph element
   const scoreCategoriesElement = document.getElementById("scores-categories");
   const scoreResultElement = scoreCategoriesElement.querySelector("p");
 
   const scoreCategories = [
     { minScore: 0, maxScore: 5, message: "Noob!" },
     { minScore: 6, maxScore: 10, message: "You still have much to learn!" },
-    { minScore: 11, maxScore: 15, message: "Alomst there!" },
-    { minScore: 15, maxScore: 15, message: "Do you have a life?" },
+    { minScore: 11, maxScore: 15, message: "Almost there!" },
+    { minScore: 16, maxScore: 20, message: "Do you have a life?" }, // Corrected range
   ];
 
-  const userScore = score;
+  const userScore = score; // Make sure `score` is defined elsewhere
   let userMessage = "";
+
+  // Loop through the categories to find the appropriate message for the score
   for (const category of scoreCategories) {
     if (userScore >= category.minScore && userScore <= category.maxScore) {
       userMessage = `You scored ${userScore} ${userScore === 1 ? "point" : "points"}. ${category.message}`;
@@ -342,11 +345,41 @@ function showScore() {
     }
   }
 
+  // Display the message in the result section
   scoreResultElement.textContent = userMessage;
-  scoreCategoriesElement.style.display = "block";
+  scoreCategoriesElement.style.display = "block"; // Make the score container visible
 
-  // Hide the question section
-  questionElement.style.display = "none";
+  // Assuming questionElement is the container for the quiz questions
+  const questionElement = document.getElementById("question-section"); // Define your question section element
+  questionElement.style.display = "none"; // Hide the question section
 
-  addRestartButton();
+  addRestartButton(); // Display the restart button (ensure this function is defined)
+}
+
+/**
+ * Adds a restart button to the quiz interface.
+ * When clicked, it restarts the quiz.
+ */
+
+function addRestartButton() {
+  const restartButton = document.createElement("button");
+  restartButton.textContent = "Restart Quiz";
+  restartButton.classList.add("btn");
+  restartButton.addEventListener("click", restartGame);
+  answerButtons.appendChild(restartButton);
+}
+
+// Restart the game
+function restartGame() {
+  currentQuestionIndex = 0;
+  score = 0;
+
+  // Show the question section again
+  questionElement.style.display = "block";
+
+  // Hide the score section
+  const scoreCategoriesElement = document.getElementById("scores-categories");
+  scoreCategoriesElement.style.display = "none";
+
+  displayQuestion();
 }
