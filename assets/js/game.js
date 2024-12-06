@@ -315,3 +315,38 @@ function handleNextButton() {
     alert("You've completed the quiz!"); // Show an alert or redirect to results
   }
 }
+
+
+/**
+ * Displays the user's score and and a message based on the score.
+ */
+function showScore() {
+  resetState(); // Reset the state for the score section
+
+  const scoreCategoriesElement = document.getElementById("scores-categories");
+  const scoreResultElement = scoreCategoriesElement.querySelector("p");
+
+  const scoreCategories = [
+    { minScore: 0, maxScore: 5, message: "Noob!" },
+    { minScore: 6, maxScore: 10, message: "You still have much to learn!" },
+    { minScore: 11, maxScore: 15, message: "Alomst there!" },
+    { minScore: 15, maxScore: 15, message: "Do you have a life?" },
+  ];
+
+  const userScore = score;
+  let userMessage = "";
+  for (const category of scoreCategories) {
+    if (userScore >= category.minScore && userScore <= category.maxScore) {
+      userMessage = `You scored ${userScore} ${userScore === 1 ? "point" : "points"}. ${category.message}`;
+      break;
+    }
+  }
+
+  scoreResultElement.textContent = userMessage;
+  scoreCategoriesElement.style.display = "block";
+
+  // Hide the question section
+  questionElement.style.display = "none";
+
+  addRestartButton();
+}
