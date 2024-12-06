@@ -299,3 +299,19 @@ function selectAnswer(e) {
   nextButton.disabled = false; // Enable the next button
   nextButton.style.display = "block"; // Show the next button
 }
+
+/**
+ * Handles the click event on the next button.
+ * Adds event listeners to answer buttons to handle answer selection.
+ */
+nextButton.addEventListener('click', handleNextButton);
+// Function to handle the Next button click
+function handleNextButton() {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < questions.length) {
+    displayQuestion(); // Load next question
+  } else {
+    nextButton.disabled = true; // Disable the button when no more questions
+    alert("You've completed the quiz!"); // Show an alert or redirect to results
+  }
+}
