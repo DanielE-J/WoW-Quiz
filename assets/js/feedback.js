@@ -30,3 +30,58 @@ function toggleThankYouMessage() {
             </div>`;
     document.getElementById('container').innerHTML = html;
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('contact-form');
+    const submitButton = document.getElementById('submit');
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the form from submitting
+
+        // Gather form data
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        // Simple validation
+        if (name === '' || email === '' || message === '') {
+            alert('Please fill out all fields.');
+            return;
+        }
+
+        // Send the data (for now, let's log it to the console)
+        console.log('Form submitted with data:');
+        console.log('Name:', name);
+        console.log('Email:', email);
+        console.log('Message:', message);
+
+        // Example: Sending data to a server (uncomment to use fetch)
+        /*
+        fetch('your-server-endpoint-url', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                message: message
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Handle success response
+            alert('Thank you for your feedback!');
+            form.reset(); // Reset the form
+        })
+        .catch(error => {
+            // Handle error
+            alert('There was an error submitting your form. Please try again later.');
+        });
+        */
+
+        // Show a success message (just for now, for demonstration)
+        alert('Thank you for your feedback!');
+        form.reset(); // Reset the form
+    });
+});
