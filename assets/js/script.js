@@ -265,3 +265,36 @@ function showResults() {
   // Hide the "Next" button
   document.getElementById('next-btn').style.display = 'none';
 }
+
+
+/**
+ * Adds a restart button to the quiz interface.
+ * When clicked, it restarts the quiz by calling the restartGame function.
+ */
+function addRestartButton() {
+  const restartButton = document.createElement("button");
+  restartButton.textContent = "Restart Quiz";
+  restartButton.classList.add("btn"); // Add "btn" class for styling
+  restartButton.classList.add("next-btn"); // Add "next-btn" class for styling
+  restartButton.addEventListener("click", restartGame); // Call restartGame
+  answerButtons.appendChild(restartButton);
+}
+
+/**
+ * Restarts the quiz game by resetting the current question index and score,
+ * displaying the first question, and hiding the score categories element.
+ */
+function restartGame() {
+  currentQuestionIndex = 0;
+  score = 0;
+  
+  // Show the question element
+  const questionElement = document.getElementById("question");
+  questionElement.style.display = "block";
+  
+  // Hide the scores-categories element
+  const scoresCategoriesElement = document.getElementById("scores-categories");
+  scoresCategoriesElement.style.display = "none";
+  
+  displayQuestion();
+}
