@@ -256,7 +256,7 @@ function displayQuestion() {
   const currentQuestion = questions[currentQuestionIndex];
   questionElement.textContent = `${currentQuestionIndex + 1}. ${currentQuestion.question}`;
 
-  answerButtons.innerHTML = ""; // Clear previous answers
+  answerButtons.innerHTML = ""; 
 
   currentQuestion.answers.forEach((answer) => {
     const button = document.createElement("button");
@@ -267,8 +267,8 @@ function displayQuestion() {
     answerButtons.appendChild(button);
   });
 
-  nextButton.disabled = true; // Disable next button initially
-  nextButton.style.display = "none"; // Hide the next button
+  nextButton.disabled = true; 
+  nextButton.style.display = "none"; 
 }
 
 /**
@@ -298,8 +298,8 @@ function selectAnswer(e) {
     button.disabled = true;
   });
 
-  nextButton.disabled = false; // Enable the next button
-  nextButton.style.display = "block"; // Show the next button
+  nextButton.disabled = false; 
+  nextButton.style.display = "block";
 }
 
 /**
@@ -309,12 +309,12 @@ function selectAnswer(e) {
  nextButton.addEventListener('click', handleNextButton);
 function handleNextButton() {
   currentQuestionIndex++;
-  console.log(currentQuestionIndex); // Add this line for debugging
+  console.log(currentQuestionIndex); 
   if (currentQuestionIndex < questions.length) {
-    displayQuestion(); // Load next question
+    displayQuestion(); 
   } else {
-    nextButton.disabled = true; // Disable the button immediately
-    showScore(); // Show the score after completing the quiz
+    nextButton.disabled = true; 
+    showScore(); 
   }
 }
 
@@ -347,7 +347,7 @@ function showScore() {
   for (const category of scoreCategories) {
     if (userScore >= category.minScore && userScore <= category.maxScore) {
       userMessage = "You scored " + userScore + (userScore === 1 ? " point." : " points.") + " " + category.message;
-      break; // Stop the loop as soon as the appropriate message is found
+      break; 
     }
   }
 
