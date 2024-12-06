@@ -197,64 +197,12 @@ const questions = [
       },
 ]; 
 
-// Variables
 
+// Variables
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
-
-/**
- * Hides .app when page is loaded
- * Create the Start button
- * Append the Start button under the instructions section
- */
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Hide the app content initially
-  var appDiv = document.querySelector(".app");
-  appDiv.style.display = "none";
-
-  // Create a "Start" button
-  var startBtn = document.createElement("button");
-  startBtn.textContent = "Start";
-  startBtn.id = "start-btn";
-
-  // Append the "Start" button to the instructions element
-  var instructions = document.getElementById("instructions");
-  instructions.appendChild(startBtn);
-
-  // Add a click event listener to the "Start" button
-  startBtn.addEventListener("click", startGame);
-
-});
-
-
-/**
- * Starts the quiz game by hiding the introduction and instructions elements,
- * displaying the quiz interface, and calling the function to display the first question.
- */
-
-function startGame() {
-  // Variables for startGame
-  const introDiv = document.getElementById("intro");
-  const instructionsDiv = document.getElementById("quiz-instructions");
-  const quizDiv = document.querySelector(".quiz");
-  const appDiv = document.querySelector(".app");
-
-  // Hide intro and instructions sections
-  introDiv.style.display = "none";
-  instructionsDiv.style.display = "none";
-
-  // Show quiz and app sections
-  quizDiv.style.display = "block";
-  appDiv.style.display = "block";
-}
-
-function initializeQuiz() {
-  console.log("Quiz initialized. Ready to begin!");
-  // Additional quiz setup logic
-}
 
