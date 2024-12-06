@@ -209,8 +209,9 @@ let score = 0;
 /**
  * Hides .app when page is loaded
  * Create the Start button
- * Append the Start button under the instructions section
+ * Append the Start button under the instructions
  */
+
 
 document.addEventListener("DOMContentLoaded", function () {
   var appDiv = document.querySelector(".app");
@@ -228,7 +229,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /**
  * Starts the quiz game by hiding the introduction and instructions elements,
- * displaying the quiz interface, and calling the function to display the first question.
+ * displaying the quiz , and displaying the function to the first question.
  */
 
 function startGame() {
@@ -243,4 +244,29 @@ function startGame() {
   appDiv.style.display = "block";
 
   displayQuestion();
+}
+
+/**
+ * Displays the current question on the quiz interface.
+ * Creates answer buttons for each answer option of the current question.
+ * Adds event listeners to answer buttons to handle answer selection.
+ */
+
+function displayQuestion() {
+  const currentQuestion = questions[currentQuestionIndex];
+  questionElement.textContent = `${currentQuestionIndex + 1}. ${currentQuestion.question}`;
+
+  answerButtons.innerHTML = ""; // Clear previous answers
+
+  currentQuestion.answers.forEach((answer) => {
+    const button = document.createElement("button");
+    button.textContent = answer.text;
+    button.classList.add("btn");
+    button.dataset.correct = answer.correct; 
+    button.addEventListener("click", selectAnswer);
+    answerButtons.appendChild(button);
+  });
+
+  nextButton.disabled = true; // Disable next button initially
+  nextButton.style.display = "none"; // Hide the next button
 }
