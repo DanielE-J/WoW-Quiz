@@ -225,3 +225,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
   startBtn.addEventListener("click", startGame);
 })
+
+/**
+ * Starts the quiz game by hiding the introduction and instructions elements,
+ * displaying the quiz interface, and calling the function to display the first question.
+ */
+
+function startGame() {
+  const introDiv = document.getElementById("intro");
+  const instructionsDiv = document.getElementById("quiz-instructions");
+  const quizDiv = document.querySelector(".quiz");
+  const appDiv = document.querySelector(".app");
+
+  introDiv.style.display = "none";
+  instructionsDiv.style.display = "none";
+  quizDiv.style.display = "block";
+  appDiv.style.display = "block";
+
+  displayQuestion();
+}
