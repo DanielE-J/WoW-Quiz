@@ -5,8 +5,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('contact-form').addEventListener('submit', function (event) {
         event.preventDefault(); // prevents default submit event
-        emailjs.init("user_nPOPkmIg53EiBIpRGSmhi");
-        emailjs.sendForm('guessing-bee', 'template_q5mqt83', this)
+        emailjs.init("user_qpAwx9PIxzXHaH9jx");
+        emailjs.sendForm('WoW-Quiz', 'template_mwo4qvp', this)
             .then(function () {
                 // success sending email
             }, function (error) {
@@ -24,7 +24,6 @@ function toggleThankYouMessage() {
     let html = `
             <p class="text-center fs-2">Thank you for leaving a message.</p>
             <div class="image-container text-center col-5 col-sm-4 col-lg-3">
-                <img src="assets/images/bee-happy.png" alt="Doodle of a happy bee">
             </div>
             <div class="text-center my-2">
                 <a href="index.html" class="return-btn btn btn-primary">Return to game</a>
