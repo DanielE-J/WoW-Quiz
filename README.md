@@ -167,6 +167,15 @@ The site consists of two pages and seven features
 <img src="assets/readme_images/feedback.jpg">
 </details>
 
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| The score doesn't show after the quiz is done | Add score to showscore function |
+| The answer did not turn green when picking right answer | Added higlight to select answer function|
+| The answer did not turn red when picking wrong answer | Added higlight to select answer function|
+| The restart button did not show when done with quiz | Added button to restart function|
+| The contact page has overflow on smaller screen sizes | Change padding and margin sizes for smaller screens |
 
 
 ## Deployment
