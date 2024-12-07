@@ -66,4 +66,5 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 
 * A simple and easy system
 * Links and functions that work as expected
-* A simple way to contact the business
+* A simple way to contact the developer
+* Easy, and fun to play
