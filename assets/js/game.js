@@ -54,9 +54,9 @@ const questions = [
         question: "What is the name of the current Alliance King?",
         answers: [
           { text: "Anduin Wrynn", 
-            correct: false },
+            correct: true },
           { text: "Varian Wrynn",
-             correct: true },
+             correct: false },
           { text: "Sylvanas Windrunner",
              correct: false },
           { text: "Khadgar",

@@ -29,6 +29,7 @@ Welcome to my World of Warcraft Quiz!
 7. [Features](#features)
     1. [Start screen](#Start-screen)
     2. [Footer](#footer)
+    3. [Quiz over screen](#quiz-over-screen)
 8. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
@@ -146,6 +147,15 @@ The site consists of two pages and seven features
 <img src="assets/readme_images/footer.jpg">
 </details>
 
+
+### Quiz over screen
+* Shows the score.
+* Shows a restart button 
+* User stories covered: 
+
+<details><summary>Game Over Screen</summary>
+<img src="assets/readme_images/endscreen.jpg">
+</details>
 
 
 
