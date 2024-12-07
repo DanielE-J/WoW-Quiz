@@ -324,17 +324,15 @@ function handleNextButton() {
  * Displays the user's score and and a message based on the score.
  */
 function showScore() {
-  // Ensure the question element is hidden
-  questionElement.style.display = "none"; // Hide the last question
-
-  // Hide the answer buttons and next button
+  // Hide the last question & answer buttons
+  questionElement.style.display = "none";
   answerButtons.style.display = "none";
   nextButton.style.display = "none";
 
   const scoreCategoriesElement = document.getElementById("scores-categories");
   const scoreResultElement = scoreCategoriesElement.querySelector("p");
 
-  // Define the score categories and corresponding messages
+  // Set score categories
   const scoreCategories = [
     { minScore: 0, maxScore: 5, message: "Noob!" },
     { minScore: 6, maxScore: 10, message: "You still have much to learn!" },
@@ -342,15 +340,25 @@ function showScore() {
     { minScore: 16, maxScore: 20, message: "Do you have a life?" }
   ];
 
-  // Find the appropriate message based on the user's score
+  // Determine user's score category
   const userScore = score;
   let userMessage = "";
   for (const category of scoreCategories) {
     if (userScore >= category.minScore && userScore <= category.maxScore) {
       userMessage = "You scored " + userScore + (userScore === 1 ? " point." : " points.") + " " + category.message;
-      break; 
+      break;
     }
   }
+
+  scoreResultElement.textContent = userMessage;
+
+  // Show results section
+  scoreCategoriesElement.style.display = "block";
+
+  // Dynamically create and show the restart button
+  addRestartButton();
+
+
 
   // Display the result message
   scoreResultElement.textContent = userMessage;
@@ -368,20 +376,35 @@ function showScore() {
  */
 
 function addRestartButton() {
+  const scoreCategoriesElement = document.getElementById("scores-categories");
+
+  // Check if the restart button already exists, avoid duplication
+  if (document.getElementById("restart-btn")) return;
+
   const restartButton = document.createElement("button");
   restartButton.textContent = "Restart Quiz";
+  restartButton.id = "restart-btn";
   restartButton.classList.add("restart-btn");
+  
   restartButton.addEventListener("click", restartGame);
+
   scoreCategoriesElement.appendChild(restartButton);
 }
 
 function restartGame() {
+  // Reset the game state
   currentQuestionIndex = 0;
   score = 0;
 
+  // Hide the scores & restart section
+  const scoreCategoriesElement = document.getElementById("scores-categories");
   scoreCategoriesElement.style.display = "none";
+
+  // Reset and show the quiz UI
   questionElement.style.display = "block";
   answerButtons.style.display = "block";
+  nextButton.style.display = "none";
 
+  // Display the first question again
   displayQuestion();
 }
