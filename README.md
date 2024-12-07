@@ -17,6 +17,7 @@ Welcome to my World of Warcraft Quiz!
     1. [Target Audience](#target-audience)
     2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
+    4. [Site Owner Stories](#site-owner-stories)
 4. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Fonts](#fonts)
