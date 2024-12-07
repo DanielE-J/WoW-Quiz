@@ -76,3 +76,7 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 3. As a user, I want to know what the score i got
 4. As a user, I want confirmation that my feedback was sent
 5. As a user, I want to give feedback and try get other questions in
+
+### Site Owner Stories
+7. As a site owner, I want users to be able to contact us and give sugestions to new questions
+8. As a site owner, I want users to be able to find us on social media.
