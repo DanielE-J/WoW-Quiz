@@ -126,3 +126,19 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 
 ## Features
 The site consists of two pages and seven features
+
+
+
+
+
+
+
+## Credits 
+
+* [Ana Runje](https://github.com/4n4ru/CI_MS1_BodelschwingherHof) for Readme insparation.
+
+## Acknowledgements
+
+I would like to take the opportunity to thank:
+* My mentor Mo Shami for his feedback, advice, and support.
+* My Wife Agnes for her support, advice and help with the baby so i can take time for my project.
