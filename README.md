@@ -68,3 +68,11 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 * Links and functions that work as expected
 * A simple way to contact the developer
 * Easy, and fun to play
+
+
+### User Stories
+1. As a user, I want to test my general knowledge
+2. As a user, I want feedback on my correct answers
+3. As a user, I want to know what the score i got
+4. As a user, I want confirmation that my feedback was sent
+5. As a user, I want to give feedback and try get other questions in
