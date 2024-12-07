@@ -179,6 +179,16 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <img src="assets/readme_images/contactvalidation.jpg">
 </details>
 
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my custom CSS it passes with no errors.
+
+<details><summary>Full page</summary>
+<img src="assets/readme_images/fullpagecss.jpg">
+</details>
+<details><summary>style.css</summary>
+<img src="assets/readme_images/css.jpg">
+</details>
+
 ## Bugs
 
 | **Bug** | **Fix** |
