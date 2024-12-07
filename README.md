@@ -54,3 +54,10 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 
 * Creating a fun and knowledgeable game that users will want to improve on until learning it all. 
 * The game should be fully responsive to be able to be played on different devices.
+
+## User Experience
+
+### Target Audience
+- casual gamers
+- people who like World of Warcraft
+- people looking to test there knowledge
