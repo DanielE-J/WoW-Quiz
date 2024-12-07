@@ -167,6 +167,18 @@ The site consists of two pages and seven features
 <img src="assets/readme_images/feedback.jpg">
 </details>
 
+
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+<details><summary>Home</summary>
+<img src="assets/readme_images/htmlvalidation.jpg">
+</details>
+<details><summary>Contact Us</summary>
+<img src="assets/readme_images/contactvalidation.jpg">
+</details>
+
 ## Bugs
 
 | **Bug** | **Fix** |
