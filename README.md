@@ -61,3 +61,9 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 - casual gamers
 - people who like World of Warcraft
 - people looking to test there knowledge
+
+### User Requirements and Expectations
+
+* A simple and easy system
+* Links and functions that work as expected
+* A simple way to contact the business
