@@ -157,7 +157,14 @@ The site consists of two pages and seven features
 <img src="assets/readme_images/endscreen.jpg">
 </details>
 
+### Contact form
+* A way for the user to provide feedback
+* A way for users to provide there questions to the quiz
+* User story covered  
 
+<details><summary>Contact Form</summary>
+<img src="docs/features/feature-contact-form.jpg">
+</details>
 
 
 
