@@ -111,3 +111,15 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 - CSS
 - JavaScript
 
+### Frameworks & Tools
+
+* GitHub
+* Gitpod
+* Balsamiq
+* Font Awesome
+* Favicon<span>.</span>io
+* Lighthouse
+* W3C Markup validation service
+* W3C Jigsaw CSS validation service 
+* WAVE WebAIM web accessibility evaluation tool
+* EmailJS
