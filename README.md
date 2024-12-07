@@ -24,6 +24,8 @@ Welcome to my World of Warcraft Quiz!
     3. [Structure](#structure) 
     4. [Wireframes](#Wireframes)  
 6. [Technologies](#Technologies)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
 7. [Features](#features)
 8. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
@@ -99,3 +101,13 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 * Introduction so you know where u are.
 * instructions so you know what to do.
 * social links and feedback bottom left so you can find us.
+
+### Wireframes
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+- JavaScript
+
