@@ -205,7 +205,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 <img src="assets/readme_images/wavehome.jpg">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/accessibility-evaluation-contact.jpg">
+<img src="assets/readme_images/contactwave.jpg">
 </details>
 
 ### Performance 
