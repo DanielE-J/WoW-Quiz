@@ -87,3 +87,7 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 ### Design Choices
 
 The Game was design so the picture can show the user what type of quiz it is, and to test there knowledge.
+
+### Fonts
+
+Sans-serif Was used through the whole website to make everything look the same.
