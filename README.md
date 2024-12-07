@@ -91,3 +91,11 @@ The Game was design so the picture can show the user what type of quiz it is, an
 ### Fonts
 
 Sans-serif Was used through the whole website to make everything look the same.
+
+### Structure
+
+The page is structured in a well know, recognizable, user friendly, and easy to learn way.
+
+* Introduction so you know where u are.
+* instructions so you know what to do.
+* social links and feedback bottom left so you can find us.
