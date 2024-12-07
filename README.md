@@ -41,3 +41,11 @@ Welcome to my World of Warcraft Quiz!
 ## Introduction
 
 Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you have knowledge about World of Warcraft.
+
+## Project Goals
+
+### User Goals
+
+* Finding a  WoW quiz. 
+* Having fun.
+* Testing your knowledge.
