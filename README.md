@@ -27,6 +27,8 @@ Welcome to my World of Warcraft Quiz!
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
 7. [Features](#features)
+    1. [Start screen](#Start-screen)
+    2. [Footer](#footer)
 8. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
@@ -130,10 +132,18 @@ The site consists of two pages and seven features
 
 ### Start screen
 - Provides an option to choose between three different game difficulties.
-- User story covered: 1
+- User story covered: 
 
 <details><summary>Start screen</summary>
 <img src="assets/readme_images/startscreen.jpg">
+</details>
+
+### Footer
+* Consists of a section providing social media links and a link to the contact form
+* User story covered: 
+
+<details><summary>Footer</summary>
+<img src="assets/readme_images/footer.jpg">
 </details>
 
 
