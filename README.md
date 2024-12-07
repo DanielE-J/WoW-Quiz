@@ -218,6 +218,14 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <img src="assets/readme_images/lighousecontact.jpg">
 </details>
 
+### Performing tests on various devices 
+The website was tested on the following devices:
+
+* Iphone 16
+* Samsung galaxy
+
+In addition, the website was tested using the Google Chrome Developer Tools Device Toggling option for all available device options.
+
 
 
 
