@@ -133,9 +133,7 @@ The site consists of two pages and seven features
 
 
 
-## Credits 
 
-* [Ana Runje](https://github.com/4n4ru/CI_MS1_BodelschwingherHof) for Readme insparation.
 
 ## Acknowledgements
 
