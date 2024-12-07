@@ -49,3 +49,8 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 * Finding a  WoW quiz. 
 * Having fun.
 * Testing your knowledge.
+
+### Site Owner Goals
+
+* Creating a fun and knowledgeable game that users will want to improve on until learning it all. 
+* The game should be fully responsive to be able to be played on different devices.
