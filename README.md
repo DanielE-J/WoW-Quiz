@@ -4,7 +4,7 @@ Welcome to my World of Warcraft Quiz!
 
 (Developer: Daniel Elde-Johansson)
 
-![Mockup image]()
+![Mockup image](assets/readme_images/Project2Mockup.jpg)
 
 [Live webpage]()
 
