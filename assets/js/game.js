@@ -2,10 +2,11 @@
 
 
 // Variables
+const appDiv = document.querySelector(".app");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-
+const scoreCategoriesElement = document.getElementById("scores-categories");
 let currentQuestionIndex = 0;
 let score = 0;
 
@@ -369,23 +370,18 @@ function showScore() {
 function addRestartButton() {
   const restartButton = document.createElement("button");
   restartButton.textContent = "Restart Quiz";
-  restartButton.classList.add("btn");
+  restartButton.classList.add("restart-btn");
   restartButton.addEventListener("click", restartGame);
-  answerButtons.appendChild(restartButton);
+  scoreCategoriesElement.appendChild(restartButton);
 }
 
-// Restart the game
 function restartGame() {
   currentQuestionIndex = 0;
   score = 0;
 
-  // Show the question section again
-  questionElement.style.display = "block";
-  
-  // Hide the score section
-  const scoreCategoriesElement = document.getElementById("scores-categories");
   scoreCategoriesElement.style.display = "none";
+  questionElement.style.display = "block";
+  answerButtons.style.display = "block";
 
-  // Reset answer buttons and display the first question
   displayQuestion();
 }
