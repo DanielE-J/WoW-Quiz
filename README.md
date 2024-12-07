@@ -123,3 +123,6 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 * W3C Jigsaw CSS validation service 
 * WAVE WebAIM web accessibility evaluation tool
 * EmailJS
+
+## Features
+The site consists of two pages and seven features
