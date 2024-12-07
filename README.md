@@ -37,3 +37,7 @@ Welcome to my World of Warcraft Quiz!
 10. [Deployment](#deployment)  
 11. [Credits](#Credits)  
 12. [Acknowledgements](#acknowledgements)
+
+## Introduction
+
+Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you have knowledge about World of Warcraft.
