@@ -37,7 +37,8 @@ Welcome to my World of Warcraft Quiz!
     7. [Browser compatibility](#browser-compatability)
     8. [Testing user stories](#Testing-user-stories)
 9. [Bugs](#Bugs)
-10. [Deployment](#deployment)  
+10. [Deployment](#deployment)
+    1. [EmailJS API](#emailjs-api)  
 11. [Credits](#Credits)  
 12. [Acknowledgements](#acknowledgements)
 
