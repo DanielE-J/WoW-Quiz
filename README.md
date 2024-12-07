@@ -30,6 +30,7 @@ Welcome to my World of Warcraft Quiz!
     1. [Start screen](#Start-screen)
     2. [Footer](#footer)
     3. [Quiz over screen](#quiz-over-screen)
+    3. [Contact form](#contact-form)
 8. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
@@ -163,7 +164,7 @@ The site consists of two pages and seven features
 * User story covered  
 
 <details><summary>Contact Form</summary>
-<img src="docs/features/feature-contact-form.jpg">
+<img src="assets/readme_images/feedback.jpg">
 </details>
 
 
