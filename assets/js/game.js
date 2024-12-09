@@ -226,7 +226,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var instructions = document.getElementById("instructions");
   instructions.appendChild(startBtn);
-
   startBtn.addEventListener("click", startGame);
 })
 
