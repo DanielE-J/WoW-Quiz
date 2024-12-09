@@ -6,7 +6,7 @@ Welcome to my World of Warcraft Quiz!
 
 ![Mockup image](assets/readme_images/Project2Mockup.jpg)
 
-[Live webpage]()
+[Live webpage](https://daniele-j.github.io/WoW-Quiz/)
 
 ## Table of Content
 1. [Introduction](#Introduction) 
