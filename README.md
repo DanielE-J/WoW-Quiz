@@ -109,6 +109,18 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 
 ### Wireframes
 
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="">
+</details>
+<details><summary>About</summary>
+<img src="">
+</details>
+<details><summary>Menu</summary>
+<img src="">
+</details>
+
 ## Technologies Used
 
 ### Languages
