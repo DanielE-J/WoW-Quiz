@@ -82,8 +82,8 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 1. As a user, I want to test my general knowledge
 2. As a user, I want feedback on my correct answers
 3. As a user, I want to know what the score i got
-4. As a user, I want confirmation that my feedback was sent
-5. As a user, I want to give feedback and try get other questions in
+4. As a user, I want to give feedback and try get other questions in
+5. As a user, I want confirmation that my feedback was sent
 
 ### Site Owner Stories
 7. As a site owner, I want users to be able to contact us and give sugestions to new questions
@@ -246,6 +246,82 @@ The website was tested on the following browsers:
 - Microsoft Edge
 
 
+### Testing user stories
+
+1. As a user, I want to test my general knowledge
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  | |
+| |  | | |
+
+
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+</details>
+
+2. As a user, I want feedback on my correct answers
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  | |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+3. As a user, I want to know what the score i got
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details> 
+
+4. As a user, I want to give feedback and try get other questions in
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| |  |  | |
+|  |  | | |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details> 
+
+
+5. As a user, I want confirmation that my feedback was sent
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+6. As a site owner, I want users to be able to contact us and give sugestions to new questions
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  | | 
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
+
+7. As a site owner, I want users to be able to find us on social media.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+||  |  |  |
+
+<details><summary>Screenshots</summary>
+<img src="">
+</details>
 
 
 ## Bugs
