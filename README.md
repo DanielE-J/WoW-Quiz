@@ -85,7 +85,6 @@ Welcome to my World of Warcraft Quiz, There is 15 questions to prove that you ha
 5. As a user, I want confirmation that my feedback was sent
 
 ### Site Owner Stories
-7. As a site owner, I want users to be able to contact us and give sugestions to new questions
 8. As a site owner, I want users to be able to find us on social media.
 
 ## Design
@@ -301,17 +300,8 @@ The website was tested on the following browsers:
 <img src="assets/readme_images/testing5.jpg">
 </details>
 
-6. As a site owner, I want users to be able to contact us and give sugestions to new questions
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-|  |  |  | | 
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-7. As a site owner, I want users to be able to find us on social media.
+6. As a site owner, I want users to be able to find us on social media.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
