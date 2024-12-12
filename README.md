@@ -43,8 +43,7 @@ Welcome to my World of Warcraft Quiz!
 9. [Bugs](#Bugs)
 10. [Deployment](#deployment) 
     1. [EmailJS API](#emailjs-api)   
-11. [Credits](#Credits)
-12. [Acknowledgements](#acknowledgements)
+11. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
