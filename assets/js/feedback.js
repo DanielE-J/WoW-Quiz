@@ -43,3 +43,4 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset(); // Reset the form
     });
 });
+

@@ -10,7 +10,6 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 
-
 const questions = [
   {
     question: "Where does the human race start?",
