@@ -295,10 +295,10 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Feedback | Send in form  | Get a text showing it got sent  | got a text showing it got sent  |
 
 <details><summary>Screenshots</summary>
-<img src="">
+<img src="assets/readme_images/testing5.jpg">
 </details>
 
 6. As a site owner, I want users to be able to contact us and give sugestions to new questions
