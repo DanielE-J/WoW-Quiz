@@ -202,7 +202,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 ### JavaScript Validation
 JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascript files. No significant issues were found.
 <details><summary>game.js</summary>
-<img src="assets/readme_images/javagame.jpg">
+<img src="assets/readme_images/javavali.jpg">
 </details>
 <details><summary>feedbackjs</summary>
 <img src="assets/readme_images/feebackjava.jpg">
