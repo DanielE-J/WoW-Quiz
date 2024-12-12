@@ -273,21 +273,21 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| Quiz | Show results | To See results after quiz  | Result shown after quiz |
 
 <details><summary>Screenshots</summary>
-<img src="">
+<img src="assets/readme_images/testing3.jpg">
 </details> 
 
 4. As a user, I want to give feedback and try get other questions in
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| |  |  | |
-|  |  | | |
+| Feedback | Fill in form  | To form to get sent  | Form get sent |
+
 
 <details><summary>Screenshots</summary>
-<img src="">
+<img src="assets/readme_images/testing4.jpg">
 </details> 
 
 
