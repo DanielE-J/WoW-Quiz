@@ -249,13 +249,12 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  | |
-| |  | | |
+| Website | Press Start  | Quiz to start   | Quiz started |
 
 
 <details><summary>Screenshots</summary>
-<img src="">
-<img src="">
+<img src="assets/readme_images/testing1start.jpg">
+<img src="assets/readme_images/testing1quiz.jpg">
 </details>
 
 2. As a user, I want feedback on my correct answers
