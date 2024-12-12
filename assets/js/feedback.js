@@ -1,22 +1,4 @@
 /*jshint esversion: 6 */
-/**
- * Sends data collected in contact form to email after the submit button is clicked calls the toggleThankYouMessage function
- * Code written with the help of the official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
- */
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('contact-form').addEventListener('submit', function (event) {
-        event.preventDefault(); // prevents default submit event
-        emailjs.init("user_qpAwx9PIxzXHaH9jx");
-        emailjs.sendForm('WoW-Quiz', 'template_mwo4qvp', this)
-            .then(function () {
-                // success sending email
-            }, function (error) {
-                // error message
-                console.log('FAILED...', error);
-            });
-        toggleThankYouMessage();
-    });
-});
 
 /**
  * Removes the contact forme and displays a thank you message on the contact page after form submision
