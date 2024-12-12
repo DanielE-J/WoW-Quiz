@@ -228,7 +228,7 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <img src="assets/readme_images/lighousecontact.jpg">
 </details>
 
-### Performing tests on various devices 
+### Devices 
 The website was tested on the following devices:
 
 * Iphone 16
