@@ -11,7 +11,7 @@ body {
     background: rgb(6, 46, 97) url(../images/background.jpg) center top/cover no-repeat fixed;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    color: #16074d;
+    color: #efefef;
     min-height: 100vh;
     padding: 20px;
 }
