@@ -261,10 +261,12 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  | |
+| Quiz | Press answer   | Green when right  | Green when right |
+| Quiz | Press answer | Red when wrong but shows right green answer| Red when wrong|
 
 <details><summary>Screenshots</summary>
-<img src="">
+<img src="assets/readme_images/testing2right.jpg">
+<img src="assets/readme_images/testing2wrong.jpg">
 </details>
 
 3. As a user, I want to know what the score i got
