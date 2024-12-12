@@ -294,7 +294,7 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Feedback | Send in form  | Get a text showing it got sent  | got a text showing it got sent  |
+| Feedback | Send in form  | Get a text showing it got sent  | Got a text showing it got sent  |
 
 <details><summary>Screenshots</summary>
 <img src="assets/readme_images/testing5.jpg">
@@ -305,10 +305,10 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-||  |  |  |
+| Footer| Press socials in footer | Takes you to the website | Took you to the website |
 
 <details><summary>Screenshots</summary>
-<img src="">
+<img src="assets/readme_images/socials.jpg">
 </details>
 
 
