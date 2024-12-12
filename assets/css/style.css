@@ -201,3 +201,15 @@ body {
     text-align: center; /* Center text alignment */
     font-family: Arial, sans-serif; /* Ensure consistent font style */
 }
+
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; 
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
