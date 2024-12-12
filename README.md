@@ -205,7 +205,7 @@ JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascr
 <img src="assets/readme_images/javavali.jpg">
 </details>
 <details><summary>feedbackjs</summary>
-<img src="assets/readme_images/feebackjava.jpg">
+<img src="assets/readme_images/feebackvali.jpg">
 </details>
 
 ### Accessibility
