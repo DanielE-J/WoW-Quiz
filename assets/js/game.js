@@ -52,13 +52,13 @@ const questions = [
     {
         question: "What is the name of the current Alliance King?",
         answers: [
-          { text: "Anduin Wrynn", 
+          { text: "Anduin Wrynn.", 
             correct: true },
-          { text: "Varian Wrynn",
+          { text: "Varian Wrynn.",
              correct: false },
-          { text: "Sylvanas Windrunner",
+          { text: "Sylvanas Windrunner.",
              correct: false },
-          { text: "Khadgar",
+          { text: "Khadgar.",
              correct: false },
         ],
     },
@@ -91,7 +91,7 @@ const questions = [
       {
         question: "Who is the Lich king ?",
         answers: [
-          { text: "Thrall",
+          { text: "Thrall.",
             correct: false },
           { text: "Varian Wrynn .",
             correct: false },
@@ -130,7 +130,7 @@ const questions = [
       {
         question: "What is the name of the race that starts neutral?",
         answers: [
-          { text: "Human .",
+          { text: "Human.",
              correct: false },
           { text: "Orc.", 
             correct: false },
@@ -195,9 +195,9 @@ const questions = [
       {
         question: "What is the name of the legendary sword wielded by the character Arthas Menethil?",
         answers: [
-          { text: "lightmourne.",
+          { text: "Lightmourne.",
              correct: false },
-          { text: "sunmourne.",
+          { text: "Sunmourne.",
              correct: false },
           { text: "Frostmourne.",
              correct: true,},
