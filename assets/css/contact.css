@@ -38,15 +38,15 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 800px; /* Restrict container width */
+    max-width: 800px; 
     padding: 20px;
-    background-color: #fff; /* White background for the form container */
-    border-radius: 8px; /* Rounded corners for the form */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for a subtle 3D effect */
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 form {
-    width: 100%; /* Make the form take full width of its container */
+    width: 100%; 
 }
 
 /* Label and input field styling */
@@ -55,22 +55,22 @@ label {
 }
 
 input, textarea {
-    width: 100%; /* Full width for inputs */
+    width: 100%; 
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc; /* Light border color */
-    border-radius: 4px; /* Rounded corners */
-    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: #f9f9f9; 
 }
 
 textarea {
-    resize: vertical; /* Allow vertical resizing of the textarea */
+    resize: vertical; 
 }
 
 /* Button styles */
 .my-btn, .return-btn {
     display: inline-block;
-    background: #2c3e50; /* Primary blue button color */
+    background: #2c3e50; 
     color: #fff;
     padding: 10px 20px;
     margin-top: 15px;
@@ -82,24 +82,24 @@ textarea {
 }
 
 .my-btn:hover, .return-btn:hover {
-    background: #2c3e50; /* Darker blue on hover */
+    background: #2c3e50;
 }
 
 /* Small screen adjustments */
 @media (max-width: 768px) {
     .game-container {
-        max-width: 90%; /* Make the container take 90% of the screen on smaller devices */
+        max-width: 90%; 
     }
 }
 
 
 @media screen and (max-width: 600px) {
     .app {
-      padding: 5px; /* Reduce padding for smaller screens */
+      padding: 5px; 
     }
   
     .btn {
-      font-size: 12px; /* Decrease button font size for smaller screens */
+      font-size: 12px; 
       text-align: center;
     }
   }
