@@ -112,14 +112,12 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="">
+<img src="assets/readme_images/homewire.jpg">
 </details>
-<details><summary>About</summary>
-<img src="">
+<details><summary>Contact</summary>
+<img src="assets/readme_images/contactwire.jpg">
 </details>
-<details><summary>Menu</summary>
-<img src="">
-</details>
+
 
 ## Technologies Used
 
