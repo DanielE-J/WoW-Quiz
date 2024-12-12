@@ -33,7 +33,7 @@ header {
     text-align: center; /* Center logo/title in the header */
 }
 
-.game-container {
+.game-container.error-page {
     display: flex;
     justify-content: center;
     align-items: center;
